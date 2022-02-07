@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+  <item android:title="@string/sport_library" android:id="@+id/sp_lib">
+
+      <menu>
+          <item android:title="@string/all" android:id="@+id/all_id"/>
+          <item android:title="@string/vid_fintess_dr_title" android:id="@+id/vid_id"/>
+          <item android:title="@string/type_fintess_dr_title" android:id="@+id/type_id"/>
+          <item android:title="@string/exercise_dr_title" android:id="@+id/ex_id"/>
+      </menu>
+  </item>
+
+
+
+</menu>
